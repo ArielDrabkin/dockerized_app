@@ -6,4 +6,4 @@ ADD . /opt/
 
 RUN pip install -r /opt/requirements.txt
 
-ENTRYPOINT ["python", "/opt/app.py"]
+ENTRYPOINT ["python", "inference.py"]
